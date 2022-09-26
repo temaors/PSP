@@ -1,6 +1,10 @@
 import java.lang.reflect.Type;
 
 public class Fighter implements Character, Object {
+    protected String Name = null;
+    protected double Health = 0;
+    protected double Power = 0;
+    protected double Dexterity = 0;
     private String TypeOfGun;
     private String FormOfShield;
 
@@ -17,24 +21,20 @@ public class Fighter implements Character, Object {
         FormOfShield = formOfShield;
     }
 
-    @Override
     public String GetName() {
-        return null;
+        return Name;
     }
 
-    @Override
     public double GetHealth() {
-        return 0;
+        return Health;
     }
 
-    @Override
     public double GetPower() {
-        return 0;
+        return Power;
     }
 
-    @Override
     public double GetDexterity() {
-        return 0;
+        return Dexterity;
     }
 
     @Override

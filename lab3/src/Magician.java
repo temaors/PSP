@@ -1,6 +1,11 @@
+import javax.naming.Name;
 import java.lang.reflect.Type;
 
 public class Magician implements Character, Object{
+    protected String Name = null;
+    protected double Health = 0;
+    protected double Power = 0;
+    protected double Dexterity = 0;
     private String TypeOfMagic;
 
     public String GetTypeOfMagic(){
@@ -11,24 +16,20 @@ public class Magician implements Character, Object{
         TypeOfMagic = typeOfMagic;
     }
 
-    @Override
     public String GetName() {
-        return null;
+        return Name;
     }
 
-    @Override
     public double GetHealth() {
-        return 0;
+        return Health;
     }
 
-    @Override
     public double GetPower() {
-        return 0;
+        return Power;
     }
 
-    @Override
     public double GetDexterity() {
-        return 0;
+        return Dexterity;
     }
 
     @Override
