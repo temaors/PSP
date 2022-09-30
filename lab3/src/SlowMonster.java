@@ -16,18 +16,19 @@ public class SlowMonster extends Monster {
 
     public void print(){
         System.out.println("Slow Monster:");
-        System.out.println("Name:");
-        System.out.println("Health:");
-        System.out.println("Power:");
-        System.out.println("Tooth length:");
-        System.out.println("Claws length:");
-        System.out.println("Number of paws:");
-
+        System.out.println("Name: " + Name);
+        System.out.println("Health: " + Health);
+        System.out.println("Power: " + Power);
+        System.out.println("Tooth length: " + ToothLength);
+        System.out.println("Claws length: " + ClawsLength);
+        System.out.println("Number of paws: " + PawsNumber);
+        System.out.println("Type: " + Type);
 
     }
 
     @Override
     public void Attack() {
-        System.out.println("Slow monster is attacking");
+        System.out.println("Slow monster is attaaaaaaaackiiiiing..............");
+        System.out.println();
     }
 }

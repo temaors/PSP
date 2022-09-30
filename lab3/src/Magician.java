@@ -35,6 +35,7 @@ public class Magician implements Character, Object{
     @Override
     public void Attack() {
         System.out.println("Magician is attacking");
+        System.out.println();
     }
 
     @Override

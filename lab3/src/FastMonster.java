@@ -12,12 +12,21 @@ public class FastMonster extends Monster {
     }
 
     public void print(){
-        System.out.println();
+        System.out.println("Fast Monster:");
+        System.out.println("Name: " + Name);
+        System.out.println("Health: " + Health);
+        System.out.println("Power: " + Power);
+        System.out.println("Tooth length: " + ToothLength);
+        System.out.println("Claws length: " + ClawsLength);
+        System.out.println("Number of paws: " + PawsNumber);
+        System.out.println("Type: " + Type);
+        System.out.println("FAST MONSTERRRRRRR");
     }
 
 
     @Override
     public void Attack() {
-        System.out.println("Slow monster is attacking");
+        System.out.println("Fast monster is attacking");
+        System.out.println();
     }
 }
